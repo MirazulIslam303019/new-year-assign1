@@ -1,0 +1,233 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 1200px;
+}
+.banner{
+   background: linear-gradient(to bottom,transparent,black ),url('/B9A1-New-Year-New-Mission-main/resources/Banner\ Image.png');
+    background-size: 1200px;
+    height: 545px;
+    border-radius: 10px;
+  
+   
+}
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+    color: white;
+    text-align: center;
+    
+}
+.banner-text h1{
+    font-size: 72px;
+    padding-top: 0;
+}
+.banner-text p{
+    font-size: 20px;
+    padding-bottom: 0px;
+    position: relative ;
+    top: 60px;
+}
+/* OFF */
+
+.Off{
+   text-align: center;
+}
+.off-text h1 {
+    color:red;
+    font-size: 40px;
+}
+.off-text p{
+    color: red;
+}
+.new-year-img img{
+    width: 60%;
+}
+/* party */
+
+.party{
+    background: linear-gradient(to left,transparent,black),url(/B9A1-New-Year-New-Mission-main/resources/Vectorrr.png);
+    background-size: 1200px;
+    height: 545px;
+    border-radius: 10px;
+    
+}
+.party-text{
+    color:white;
+    position: relative;
+    top: 150px;
+    margin-left: 80px;
+    
+
+}
+.party-text h1{
+    font-size: 60px;
+    
+}
+ /* card */
+
+ .card{
+    text-align: center;
+    background-color: bisque;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+ }
+ .card-text{
+    font-size: 30px;
+    font-weight: 600;
+ }
+ .card span{
+    color: red;
+ }
+ .card button{
+    background-color: red;
+    font-size: 16px;
+    
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    border-radius: 5px;
+ }
+
+ /* invidation */
+ .invidation{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 40px;
+ }
+
+ .i-text h4{
+    font-size: 20px;
+    color: red;
+ }
+ 
+    
+ .i-img img{
+    padding: 20px;
+ }
+
+ .i-img{
+    margin-right: 50px;
+    border: solid red 10px;
+    border-radius: 50%;
+ }
+ .Red{
+    font-size: 30px;
+    color: red;
+ }
+
+ /* holidays */
+
+ .holidays{
+   margin-top: 40px;
+ }
+
+ .holidays-text{
+    text-align: center;
+ }
+
+.holidays-text h1{
+    font-size: 60px;
+}
+.holidays-text h1 span{
+    color: red;
+}
+ .gift{
+    position: relative;
+    top: 200px;
+}
+.off{
+    position: relative;
+    bottom: 50px;
+}
+.bottom{
+    width: 100%;
+}
+
+/* GIFt */
+
+.gift{
+    margin-bottom: 300px;
+}
+
+.gift-text h4{
+    color: red;
+}
+.gift-pic{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.gift-pic img{
+    width: 100%;
+}
+
+/* Form */
+
+.Form{
+    margin-top: 40px;
+    background-color: rgb(242, 228, 228);
+    padding: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+.form-input input{
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    width: 300px;
+
+}
+.form-input button{
+    background-color: red;
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
+footer{
+    background-color: rgb(7, 7, 27);
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.footer-address{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+  
+}
+.icon img{
+    margin: 5px;
+    
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
