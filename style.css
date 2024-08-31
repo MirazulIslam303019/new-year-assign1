@@ -132,6 +132,7 @@ main{
 
  .holidays-text{
     text-align: center;
+    margin-top: 100px;
  }
 
 .holidays-text h1{
@@ -142,11 +143,11 @@ main{
 }
  .gift{
     position: relative;
-    top: 200px;
+    top: 500px;
 }
 .off{
     position: relative;
-    bottom: 50px;
+    bottom: 100px;
 }
 .bottom{
     width: 100%;
